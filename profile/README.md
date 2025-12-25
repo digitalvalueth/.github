@@ -12,11 +12,12 @@
 `[prefix]-[project-name]-[component/platform]`
 
 ### ส่วนประกอบ:
-1.  **Prefix (Optional):** ระบุประเภทของงานเพื่อให้จัดกลุ่มได้ง่าย
+1.  **Prefix (Required):** ระบุประเภทของงานเพื่อให้จัดกลุ่มได้ง่าย
     - `lib-` : สำหรับ Library หรือ Shared Code
     - `infra-` : สำหรับงาน Infrastructure / DevOps / Docker
     - `poc-` : สำหรับโปรเจกต์ทดลองหรือ Proof of Concept
     - `docs-` : สำหรับโปรเจกต์ที่เก็บเอกสารอย่างเดียว
+    - `(sitecode)-` : สำหรับชื่อลูกค้า
 2.  **Project Name:** ชื่อโปรเจกต์หลัก (ควรเป็นชื่อเฉพาะ)
 3.  **Component/Platform:** ระบุส่วนงาน
     - `-api` : ส่วน Backend API
